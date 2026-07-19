@@ -1,14 +1,14 @@
 import { useEffect, useRef, useState } from "react";
 
-import Navbar from "./components/layout/Navbar";
-import Dashboard from "./components/dashboard/Dashboard";
-import MonthlySummary from "./components/dashboard/MonthlySummary";
-import ExpensePieChart from "./components/dashboard/ExpensePieChart";
-import IncomeExpenseChart from "./components/dashboard/IncomeExpenseChart";
-import TransactionForm from "./components/transactions/TransactionForm";
-import TransactionTable from "./components/transactions/TransactionTable";
-import SearchFilter from "./components/transactions/SearchFilter";
-import DeleteModel from "./components/transactions/DeleteModel";
+import Navbar from "./components/Layout/Navbar";
+import Dashboard from "./components/Dashboard/dashboard";
+import MonthlySummary from "./components/Dashboard/MonthlySummary";
+import ExpensePieChart from "./components/Dashboard/ExpensePieChart";
+import IncomeExpenseChart from "./components/Dashboard/IncomeExpenseChart";
+import TransactionForm from "./components/Transactions/TransactionForm";
+import TransactionTable from "./components/Transactions/TransactionTable";
+import SearchFilter from "./components/Transactions/SearchFilter";
+import DeleteModel from "./components/Transactions/DeleteModel";
 import { calculateSummary } from "./utils/calculations";
 import { exportToCSV } from "./utils/exportCSV";
 
