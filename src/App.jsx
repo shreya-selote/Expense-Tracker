@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 
-import Navbar from "./components/Layout/Navbar";
+import Navbar from "./components/layout/Navbar";
 import Dashboard from "./components/Dashboard/dashboard";
 import MonthlySummary from "./components/Dashboard/MonthlySummary";
 import ExpensePieChart from "./components/Dashboard/ExpensePieChart";
